@@ -2,17 +2,32 @@
 
 <head>
   <title>
-    PYTHON
+    Procurando o CEP
   </title>
 </head>
 
 <body>
-  <h1>Teste com python</h1>
-
- The current date is
-<% import datetime
-print datetime.date.today().strftime("%d:%m:%y")
-%>
+ 
+  <div class="container">
+    <h1 class="page-title">
+      Código de endereçamento postal (CEP)
+    </h1>
+    <BR>
+    <BR>
+    <BR>
+    <p class="page-subtitle">
+      Qual o CEP procurado?
+    </p>
+    
+    <div class="form-wrapper">
+      <input type="text" id="desejado" name="filme" placeholder="Insira o CEP">
+      <button onClick="procuraCEP()">OK</button>
+    </div>
+      
+  <div class="listaCEP">
+    <h2 class="resultado" id="resultado"></h2>
+  </div>
+      <script
 </body>
 
 </html>
